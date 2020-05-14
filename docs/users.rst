@@ -74,6 +74,7 @@ names:
 .. code-block:: python
 
     AUTH_LDAP_USER_ATTR_MAP = {"first_name": "givenName", "last_name": "sn"}
+This does not work for django > 1.7
 
 Only string fields can be mapped to attributes. Boolean fields can be defined by
 group membership:
